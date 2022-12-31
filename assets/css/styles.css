@@ -46,7 +46,9 @@
 
 /*=============== BASE ===============*/
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; 
+  /* If we create two identical div of same size they will have different size because of default padding + width + height applied 
+  border box solves this problem and makes same size therefore we use them in universal selector */
   padding: 0;
   margin: 0;
 }
@@ -540,7 +542,7 @@ bottom: 0;
   }  
 }
 
-@media screen and(min-width:992px) {
+@media screen and (min-width:992px) {
   
   .container
   {
@@ -573,10 +575,10 @@ bottom: 0;
     height: 120px;
   }
 
-  .profile__perfil img
+  /* .profile__perfil img
   {
     width: 90px;
-  }
+  } */
 
   /* .skills__content
   {
