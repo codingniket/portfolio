@@ -4,7 +4,7 @@ import UIdesign from '../../assets/ui-design.png';
 import Webdesign from '../../assets/website-design.png';
 import AppDesign from '../../assets/app-design.png';
 
-const Skill = () => {
+const Skills = () => {
   return (
     <section id="skills">
       <span className="skillsTitle">WHAT I DO?</span>
@@ -37,4 +37,4 @@ const Skill = () => {
   );
 };
 
-export default Skill;
+export default Skills;
